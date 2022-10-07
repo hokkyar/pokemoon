@@ -1,0 +1,107 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-pokemon {
+    background-color: #FFD384;
+}
+
+.bg-pokemon2 {
+    background-color: #FF884B;
+}
+
+.text-pokemon {
+    color: #91760b;
+}
+
+body {
+    background-color: #FFF9B0;
+}
+
+.search-logo {
+    border: none;
+    background-color: #FFD384;
+    padding: 10px;
+    margin-left: -30px;
+    border-radius: 0 7px 7px 0;
+    transition: .3s;
+}
+
+.search-logo:hover {
+    background-color: #FF884B;
+}
+
+.form-control:enabled {
+    box-shadow: none;
+}
+
+.border-search {
+    border: #FFD384;
+}
+
+.list-group-item {
+    cursor: pointer;
+    transition: .3s;
+}
+
+.list-group-item:hover {
+    background-color: #FF884B;
+}
+
+.pokemon-card {
+    width: 22rem;
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.side-info {
+    padding: 5px;
+}
+
+.side-info2 p {
+    cursor: default;
+    font-size: 14px;
+}
+
+.side-info2 span {
+    display: block;
+}
+
+.side-info p {
+    font-size: 14px;
+    display: inline;
+}
+
+.side-info span {
+    color: rgb(126, 126, 126);
+    font-weight: 500;
+}
+
+.badge {
+    margin: 2px;
+    padding: 8px;
+}
+
+.abilities {
+    padding: 5px;
+}
+
+.abilities p {
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+
+.ability-items {
+    width: 12rem;
+}
+
+@media only screen and (max-width: 991px) {
+    .wrapper {
+        margin: 0 50px;
+    }
+}
